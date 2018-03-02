@@ -20,17 +20,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 #### Node
 Download node and install LTS (this is the most stable recent version they have, it should be compatible with my repo!)
-```
 [Node.js] (https://nodejs.org/en/)
-```
 
 
 #### NPM
 NPM is used to install plugins and all kinds of stuff to make your workflow easier! (but mine is fine as well!)
 ###### NPM is pre-installed with node.js **hooray!**.
-```
 [NPM] (https://www.npmjs.com/)
-```
 
 
 #### Bower
