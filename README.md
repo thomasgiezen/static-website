@@ -16,6 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 * Node
 * NPM
 * Bower
+* Command line (should be on you computer already)
 
 
 ### Node
@@ -42,33 +43,35 @@ npm install -g bower
 **mac users may have to use ```sudo```**
 
 #### Including bower components
-To include bower components you have to include script tags into your html file.
-* This is an example of how to include jQuery into your page
-```
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-```
+  To include bower components you have to include script tags into your html file.
+  * This is an example of how to include jQuery into your page
+  ```
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  ```
+
 
 ## Installing and running
 Here are the steps on installing and running your own dev server
 
+### Cloning the repo to local
 1. First clone the repo to your own computer
 ```
 git clone https://github.com/rubennijhuis/static-website
 ```
 
-
+### installing dependencies
 2. Then via the command line, go to the folder and run npm install. **(if you didn't do that yet)**
 ```
 npm install
 ```
 
-
+### install bower packages
 3. After that run bower install **(again only if you didn't do that yet)**
 ```
 bower install
 ```
 
-
+### Running gulp
 4. Now if everything went correctly run gulp!
 ```
 gulp serve
