@@ -10,26 +10,30 @@ These instructions will get you a copy of the project up and running on your loc
 * Follow the steps and you will be there in no time!
 
 
-### Prerequisites
+## Prerequisites
 ---
-#### You need to install these things for all of this to work
+### You need to install these things for all of this to work
 * Node
 * NPM
 * Bower
 
 
-#### Node
+### Node
 Download node and install LTS (this is the most stable recent version they have, it should be compatible with my repo!)
+
 [Node.js] (https://nodejs.org/en/)
 
 
-#### NPM
+
+### NPM
 NPM is used to install plugins and all kinds of stuff to make your workflow easier! (but mine is fine as well!)
-###### NPM is pre-installed with node.js **hooray!**.
+##### NPM is pre-installed with node.js **hooray!**.
+
 [NPM] (https://www.npmjs.com/)
 
 
-#### Bower
+
+### Bower
 Bower is used to make it easier to install jQuery, Mocha AnimeJS and all kinds of plugins!
 * Bower is installed via the command line, so put this there and you should be fine!
 ```
@@ -37,7 +41,7 @@ npm install -g bower
 ```
 **mac users may have to use ```sudo```**
 
-##### Including bower components
+#### Including bower components
 To include bower components you have to include script tags into your html file.
 * This is an example of how to include jQuery into your page
 ```
@@ -70,7 +74,7 @@ bower install
 gulp serve
 ```
 
-#### **Right now you should have a live-reload server going! Well done! Now let's do some coding!**
+### **Right now you should have a live-reload server going! Well done! Now let's do some coding!**
 
 
 ## Gulp commands
