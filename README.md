@@ -1,6 +1,8 @@
 # Static-website
 *stop worrying about dev envr, localhost, implementing sass or any other type of stuff!*
+
 I made Static-website with the thought that it
+
 
 ## Getting Started
 
@@ -10,26 +12,26 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-# You need to install these things for all of this to work
+#### You need to install these things for all of this to work
 * Node
 * NPM
 * Bower
 
 
-## Node
+#### Node
 Download node and install LTS (this is the most stable recent version they have, it should be compatible with my repo!)
 ```
 [Node.js] (https://nodejs.org/en/)
 ```
 
-## NPM
+#### NPM
 NPM is used to install plugins and all kinds of stuff to make your workflow easier! (but mine is fine as well!)
-# NPM is pre-installed with node.js **hooray!**.
+###### NPM is pre-installed with node.js **hooray!**.
 ```
 [NPM] (https://www.npmjs.com/)
 ```
 
-## Bower
+###### Bower
 Bower is used to make it easier to install jQuery, Mocha AnimeJS and all kinds of plugins!
 * Bower is installed via the command line, so put this there and you should be fine!
 ```
@@ -39,7 +41,7 @@ npm install -g bower
 
 ### Installing
 
-# These are all the things you should have pre installed
+#### These are all the things you should have pre installed
 * NPM
 * Bower
 
